@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FCFCFD;
+    color: #334155;
+    padding-bottom: 50px;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    background-color: #FCFCFD;
+}
+
+.icon-img {
+    display: none;
+}
+
+.logo {
+    color: #3037EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 16px;
+}
+
+.btn-browse {
+    height: 48px;
+    font-size: 16px;
+    color: #312B78;
+    background: #F1F0FA;
+    border: none;
+    padding: 8px 24px;
+    margin-right: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pro-john {
+    font-size: 16px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+
+.blue-box {
+    height: 250px;
+    background-color: #312B78;
+    border-radius: 0 0 16px 16px;
+    border: 1px solid #222222;
+    padding: 74px 150px;
+}
+
+.image-name {
+    display: flex;
+    gap: 16px;
+}
+
+.name-box {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-box h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #E1E8F0;
+    margin-bottom: 12px;
+}
+
+.blue-box p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #76B73D;
+    margin-bottom: 4px;
+}
+
+ul {
+    font-size: 14px;
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.noti-icon {
+    display: flex;
+    gap: 16px;
+    align-self: center;
+}
+
+.noti-bell, .noti-write {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.noti-bell i {
+    padding: 8px 9px;
+}
+
+.noti-write i {
+    padding: 8px 9px;
+}
+
+.main {
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-baker {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about-baker h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #312B78;
+}
+
+.about-baker p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #393C3C;
+}
+
+.service-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service-offer h3 {
+     font-size: 18px;
+    font-weight: 600;
+    color: #312B78;
+}
+
+.service-offer ul2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #393C3C;
+    text-decoration: none;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.portfolio h3 {
+     font-size: 18px;
+    font-weight: 600;
+    color: #312B78;
+}
+
+.portfolio ul3 {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}

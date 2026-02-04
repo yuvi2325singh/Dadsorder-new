@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #Fff;
+    color: #1e293b;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    background-color: #FCFCFD;
+}
+
+.icon-img {
+    display: none;
+}
+
+.logo {
+    color: #3037EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.my-order {
+    color: #64748b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 16px;
+}
+
+.btn-browse {
+    height: 48px;
+    font-size: 16px;
+    color: #312B78;
+    background: #F1F0FA;
+    border: none;
+    padding: 8px 24px;
+    margin-right: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset > label {
+  padding: 15px 15px 5px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  color: #777777;
+}
+
+.tabset > input:checked + label {
+    color: #312B78;
+    border-bottom: 2px solid #312B78;
+}
+
+.container h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.cake-slice {
+    border: 1px solid #F1F1F1;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-img {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name-img h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #312B78;
+}
+
+.ima-fle {
+    display: flex;
+    gap: 8px;
+}
+
+.ima-fle h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+    margin-bottom: 4px;
+}
+
+.ima-fle p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #312B78;
+}
+
+.date-location {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.date-location h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+    margin-bottom: 4px;
+}
+
+.date-location p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #312B78;
+}
+
+.money h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A6A6A;
+    margin-bottom: 4px;
+}
+
+.money p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #312B78;
+}    
+
