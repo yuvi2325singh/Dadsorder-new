@@ -358,6 +358,12 @@ h1 {
     background: rgba(0, 0, 0, 0.4);
 }
 
+.container2:target {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
 .content {
     width: 680px;
     height: 588px;
@@ -469,9 +475,4 @@ ul {
 
 
 
-.container2:target {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
 
